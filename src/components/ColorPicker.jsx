@@ -90,7 +90,7 @@ ColorPicker.propTypes = {
 const ColorItem = ({ color, colorIndex, isActive, onClick, tooltip }) => {
     const item = (
         <span
-            className={'reactist_color_item' + (isActive ? ' active' : '')}
+            className={'reactist color_item' + (isActive ? ' active' : '')}
             style={{ backgroundColor: color }}
             onClick={() => onClick && onClick(colorIndex)}
         >
