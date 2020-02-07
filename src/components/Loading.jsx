@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 const Loading = ({ className, spinnerColor, bgColor, size }) => (
-    <div className={classNames('reactist loading', className)}>
+    <div className={classNames('reactist_loading', className)}>
         <span className="loading--spinner">
             <svg width={size} height={size} viewBox={'0 0 24 24'}>
                 <g fill="none" fillRule="nonzero">
