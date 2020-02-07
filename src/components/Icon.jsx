@@ -34,7 +34,7 @@ class Icon extends React.Component {
         const className = classNames(
             'reactist_icon',
             {
-                'icon--component': !image,
+                'reactist_icon--component': !image,
                 disabled
             },
             this.props.className

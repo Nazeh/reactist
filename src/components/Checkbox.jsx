@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const Checkbox = ({ label, disabled, checked, onChange }) => (
     <label className="reactist_checkbox">
         <input
-            className="checkbox--input"
+            className="reactist_checkbox--input"
             value={label}
             checked={checked}
             disabled={disabled}
