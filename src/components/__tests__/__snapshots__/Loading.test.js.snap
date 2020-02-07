@@ -5,7 +5,7 @@ exports[`Loading renders a loading indicator 1`] = `
   className="reactist_loading"
 >
   <span
-    className="loading--spinner"
+    className="reactist_loading--spinner"
   >
     <svg
       height={24}
