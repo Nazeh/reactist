@@ -2,7 +2,7 @@
 
 exports[`Checkbox renders when initially set to false 1`] = `
 <label
-  className="reactist checkbox"
+  className="reactist_checkbox"
 >
   <input
     checked={false}
@@ -17,7 +17,7 @@ exports[`Checkbox renders when initially set to false 1`] = `
 
 exports[`Checkbox renders when initially set to true 1`] = `
 <label
-  className="reactist checkbox"
+  className="reactist_checkbox"
 >
   <input
     checked={true}

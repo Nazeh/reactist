@@ -2,7 +2,7 @@
 
 exports[`Loading renders a loading indicator 1`] = `
 <div
-  className="reactist loading"
+  className="reactist_loading"
 >
   <span
     className="loading--spinner"
