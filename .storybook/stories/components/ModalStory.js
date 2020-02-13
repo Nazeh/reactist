@@ -269,7 +269,7 @@ const ModalPlaygroundStory = () => {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Modal', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Documentation', {
@@ -285,5 +285,3 @@ const Story = () =>
             ]
         })
         .add('Component Playground', ModalPlaygroundStory)
-
-export default Story

@@ -49,12 +49,10 @@ const IconPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Icon', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [IconPropTypesChapter, IconChapter]
         })
         .add('Component Playground', IconPlaygroundStory)
-
-export default Story

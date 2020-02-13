@@ -65,12 +65,10 @@ const TabsChapter = {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Tabs', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [TabsPropTypesChapter, TabsChapter]
         })
         .add('Component Playground', () => <TabsPlaygroundStory />)
-
-export default Story

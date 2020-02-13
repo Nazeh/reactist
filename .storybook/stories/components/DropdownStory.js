@@ -57,9 +57,7 @@ const InteractiveDropdownChapter = {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Dropdown', module).addWithChapters('Component Overview', {
         chapters: [DropdownChapter, InteractiveDropdownChapter]
     })
-
-export default Story

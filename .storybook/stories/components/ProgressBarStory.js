@@ -45,12 +45,10 @@ const ProgressBarPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('ProgressBar', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [ProgressBarPropTypesChapter, ProgressBarChapter]
         })
         .add('Component Playground', ProgressBarPlaygroundStory)
-
-export default Story

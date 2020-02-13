@@ -44,12 +44,10 @@ const TipPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Tip', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [TipPropTypesChapter, TipChapter]
         })
         .add('Component Playground', TipPlaygroundStory)
-
-export default Story

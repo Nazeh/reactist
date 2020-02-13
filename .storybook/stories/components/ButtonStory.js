@@ -118,7 +118,7 @@ const ButtonPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Button', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
@@ -133,5 +133,3 @@ const Story = () =>
             ]
         })
         .add('Component Playground', ButtonPlaygroundStory)
-
-export default Story

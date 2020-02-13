@@ -7,7 +7,7 @@ import {
     testingText
 } from './ReactistStory.md'
 
-const Story = () =>
+export const Story = () =>
     storiesOf('Reactist', module).addWithChapters('Welcome', {
         chapters: [
             {
@@ -28,5 +28,3 @@ const Story = () =>
             }
         ]
     })
-
-export default Story

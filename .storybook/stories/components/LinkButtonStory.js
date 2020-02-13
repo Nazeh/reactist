@@ -42,12 +42,10 @@ const LinkButtonPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('LinkButton', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [LinkButtonPropTypesChapter, LinkButtonsChapter]
         })
         .add('Component Playground', LinkButtonPlaygroundStory)
-
-export default Story

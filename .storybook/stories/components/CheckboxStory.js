@@ -65,12 +65,10 @@ class CheckboxPlaygroundStory extends React.Component {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Checkbox', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [CheckboxPropTypesChapter, CheckboxChapter]
         })
         .add('Component Playground', () => <CheckboxPlaygroundStory />)
-
-export default Story

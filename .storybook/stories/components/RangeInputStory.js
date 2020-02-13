@@ -70,12 +70,10 @@ class RangeInputPlaygroundStory extends React.Component {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('RangeInput', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [RangeInputPropTypesChapter, RangeInputChapter]
         })
         .add('Component Playground', () => <RangeInputPlaygroundStory />)
-
-export default Story

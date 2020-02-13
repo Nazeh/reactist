@@ -8,12 +8,10 @@ const KeyCapturerDocumentationChapters = [
 ]
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('KeyCapturer', module).addWithChapters(
         'Component Documentation',
         {
             chapters: KeyCapturerDocumentationChapters
         }
     )
-
-export default Story

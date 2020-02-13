@@ -69,12 +69,10 @@ class SelectPlaygroundStory extends React.Component {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Select', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [SelectPropTypesChapter, SelectChapter]
         })
         .add('Component Playground', () => <SelectPlaygroundStory />)
-
-export default Story

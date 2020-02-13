@@ -42,12 +42,10 @@ const LoadingPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Loading', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [LoadingPropTypesChapter, LoadingChapter]
         })
         .add('Component Playground', () => <LoadingPlaygroundStory />)
-
-export default Story

@@ -46,12 +46,10 @@ const InputPlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('Input', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [InputPropTypesChapter, InputChapter]
         })
         .add('Component Playground', () => <InputPlaygroundStory />)
-
-export default Story

@@ -45,12 +45,10 @@ const ErrorMessagePlaygroundStory = () => (
 )
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('ErrorMessage', module)
         .addDecorator(withKnobs)
         .addWithChapters('Component Overview', {
             chapters: [ErrorMessagePropTypesChapter, ErrorMessageChapter]
         })
         .add('Component Playground', ErrorMessagePlaygroundStory)
-
-export default Story

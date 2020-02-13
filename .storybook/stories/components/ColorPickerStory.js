@@ -127,7 +127,7 @@ const SmallColorPickerChapter = {
 }
 
 // Story setup ================================================================
-const Story = () =>
+export const Story = () =>
     storiesOf('ColorPicker', module).addWithChapters('Component Overview', {
         chapters: [
             ColorPickerPropTypesChapter,
@@ -137,5 +137,3 @@ const Story = () =>
             SmallColorPickerChapter
         ]
     })
-
-export default Story
